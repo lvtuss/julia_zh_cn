@@ -257,12 +257,7 @@ Julia 完整支持 Unicode 字符和字符串。正如 `上文所讨论的 <#cha
     <BLANKLINE>
     y
 
-Julia 不只支持 UTF-8 ，增加其它编码的支持也很简单。In particular, Julia also provides
-``UTF16String`` and ``UTF32String`` types, constructed by the
-``utf16(s)`` and ``utf32(s)`` functions respectively, for UTF-16 and
-UTF-32 encodings.  It also provides aliases ``WString`` and
-``wstring(s)`` for either UTF-16 or UTF-32 strings, depending on the
-size of ``Cwchar_t``. 有关 UTF-8 的讨论，详见下面的 `字节数组文本 <#byte-array-literals>`_ 。
+Julia 不只支持 UTF-8 ，增加其它编码的支持也很简单。尤其是，茱莉亚还提供了 ``UTF16String`` 和 ``UTF32String``类型，函数 ``utf16(s)`` 和 ``utf32(s)``的功能分别为 UTF-16 和 UTF 32 编码。它还提供别名``WString`` 和 ``wstring(s)`` 对于 UTF 16 或 UTF 32 的字符串，具体取决于 'Cwchar_t '的长度。 有关 UTF-8 的讨论，详见下面的 `字节数组文本 <#byte-array-literals>`_ 。
 
 .. _man-string-interpolation:
 
